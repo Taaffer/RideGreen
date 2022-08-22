@@ -1,0 +1,35 @@
+.header-style {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size: 100px;
+    color:rgb(87, 148, 87);
+    margin:0px;
+}
+
+main {
+    font-family: 'Quicksand', sans-serif;
+    color:rgb(87, 148, 87);
+    font-size:15px;
+    text-align: center;
+
+}
+
+img {
+     display: inline-block;
+     width: 40%;
+     margin-left: 1px;
+     margin-right: 1px;
+     
+}
+
+
+footer {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    background-color:white ;
+    color:rgb(87, 148, 87);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0px;
+}
