@@ -23,6 +23,20 @@
     <body>
         <a href="main.html"><img src="images/green  bicycle 2.png" alt="Green Bike" class="portal-bike-img"/></a>
         <h1 class="header-style">Ride Green</h1>
+        <p style="text-align: center;"><button onclick="myFunction()">Cookie info here</button></p>
+        <p id="demo" style="text-align: center;"></p>
     </body>
+
+    <script>
+        function myFunction() {
+            var txt;
+            if (confirm("By clicking 'OK', you agree to the storing of cookies on your device ")) {
+                txt = "You Accepted";
+            } else {
+                txt = "You Declined";
+            }
+            document.getElementById("demo").innerHTML = txt;
+        }
+    </script>
 </html>
 
